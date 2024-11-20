@@ -2,7 +2,7 @@
 
 Este es mi portfolio creado con HTML, CSS y Javascript.
 
-## Autor - 
+## Autor - 🎵
 **Gonzalo Acero**
 
 * [Linkedin](https://www.linkedin.com/in/gonzalo-acero/)
