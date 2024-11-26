@@ -295,6 +295,9 @@ body {
   /*background-color: lightpink;*/
   padding: 2em 0;
   text-align: center;
+  color: var(--blanco);
+  position: relative;
+  z-index: 2;
 }
 
 
