@@ -65,13 +65,13 @@ body {
   left: 0;
   z-index: 1;
   filter: blur(40px);
-  animation:circulo1 100s linear infinite both;
+  animation:circulo1 50s linear infinite both;
 }
 .circulos .circulo {
   position: absolute;
   width: 50%;
   height: 50%;
-  animation:circulo1 100s linear infinite both;
+  animation:circulo1 50s linear infinite both;
 }
 
 .circulos .circulo1 {
@@ -131,6 +131,7 @@ body {
 
 
 .main {
+  background: rgba(0, 0, 0, 0.7);  
   margin: 0 0 1em;
   text-align: center;
   position: relative;
@@ -151,6 +152,7 @@ body {
 
 .seccion .info {
   font-size: 2em;
+  animation: aparecer1 2s ease 1 both;
 }
 
 .seccion .ul {
@@ -213,6 +215,7 @@ body {
 
   position: relative;
   overflow: hidden;
+  border-radius: 1em;
 }
 
 .seccion .figure {
@@ -243,7 +246,7 @@ body {
   font-size: 1em;
   font-style: italic;
   font-family: var(--tipo-principal);
-  transform: translateZ(1) scale(1.2);
+  transform: translateZ(1) scale(1.5);
   opacity: 0;
   transition: all 0.5s ease;
 }
@@ -254,8 +257,7 @@ body {
 }
 
 .works {
-    background: white;
-    color: black;
+    color: white;
 }
 .works .h2 {
   margin: 0 0 1rem;
@@ -267,9 +269,8 @@ body {
 }
 .about .p {
   max-width: 40em;
-  /* background: lime; */
   margin: 0 0 2rem;
-  font-size: 1.5em;
+  font-size: 1.1em;
   text-align: left;
 }
 .about .rrss {
@@ -310,5 +311,14 @@ body {
     }
     to{
         transform:rotate(360deg) scale(2);
+    }
+}
+
+@keyframes aparecer1 {
+    from{
+        transform: translateY(50%);
+    }
+    to{
+        transform: translateY(0%);
     }
 }
