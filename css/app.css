@@ -141,7 +141,7 @@ a, ul, li {
 .seccion .grid {
     width: 90%;
     max-width: 40em;
-    background: lightcoral;
+
     margin: 1em 0;
 
     display: grid;
