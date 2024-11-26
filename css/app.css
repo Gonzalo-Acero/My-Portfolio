@@ -205,30 +205,31 @@ a, ul, li {
 }
 .about {}
 .about .h2{
-    margin: 0 0  1rem;
+    margin: 0 0 2rem;
 }
 .about .p{
     max-width: 40em;
-    background: lime;
-    margin: 0 0 1em;
+    /* background: lime; */
+    margin: 0 0 2rem;
+    font-size: 1.5em;
     text-align: left;
 }
 .about .rrss{
     width: 100%;
-    background: lightgreen;
+    /* background: lightgreen; */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
 .about .li{
-    background: orange;
+    /* background: orange; */
     margin: 0 1em;
 }
 .about .a{}
 .about .svg {
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
     /*background: red;*/
 }
 
