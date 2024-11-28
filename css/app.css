@@ -4,8 +4,10 @@
 :root {
   --blanco: white;
   --negro: black;
-  --gris: #f3f6f8;
-  --azul: #054f77;
+  --negro-7: rgba(0, 0, 0, 0.7);
+  --negro-5: rgba(0, 0, 0, 0.5);
+  --negro-4: rgba(0, 0, 0, 0.4);
+  --azul: rgba(0, 59, 155);
   --tipo-titulo: "Roboto Condensed", sans-serif;
   --tipo-principal: "Roboto", sans-serif;
 }
@@ -83,14 +85,14 @@ body {
 }
 
 .circulos .circulo1 .path {
-    fill: seagreen;
+    fill: #2e8b57;
 }
 .circulos .circulo2 {
   top: 0%;
   right: 0%;
 }
 .circulos .circulo2 .path {
-    fill: rgb(46, 13, 165);
+    fill: #2e0da5;
 }
 
 .circulos .circulo3 {
@@ -98,7 +100,7 @@ body {
   left: 0%;
 }
 .circulos .circulo3 .path {
-    fill: rgba(165, 127, 1);
+    fill: #a57f01;
 }
 
 .circulos .circulo4 {
@@ -106,7 +108,7 @@ body {
   right: 0%;
 }
 .circulos .circulo4 .path {
-    fill: rgb(0, 59, 155);
+    fill: var(--azul);
 }
 
 .header {
@@ -133,7 +135,7 @@ body {
 
 
 .main {
-  background: rgba(0, 0, 0, 0.7);  
+  background: var(--negro-7);
   margin: 0 0 1em;
   text-align: center;
   position: relative;
@@ -158,7 +160,6 @@ body {
 }
 
 .seccion .ul {
-  /*background: red;*/
   margin: 2em 0 0;
   display: flex;
   flex-flow: row wrap;
@@ -166,11 +167,10 @@ body {
   align-items: center;
 }
 .seccion .ul .li {
-  /*background: chartreuse;*/
   margin: 0 1em;
 }
 .seccion .ul .a {
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--negro-4);
 
   padding: 1em 1em 1em;
   text-transform: uppercase;
@@ -182,8 +182,8 @@ body {
     animation-delay: .2s;
 }
 .seccion .ul .a:hover {
-  background: white;
-  color: black;
+  background: var(--blanco);
+  color: var(--negro);
 }
 .seccion .h2 {
   font-family: var(--tipo-titulo);
@@ -212,7 +212,6 @@ body {
 .seccion .article {
   width: 100%;
   min-height: 20vh;
-  background: lightgoldenrodyellow;
 
   display: flex;
   flex-flow: column nowrap;
@@ -226,7 +225,6 @@ body {
 
 .seccion .figure {
   width: 100%;
-  /* background: red; */
 }
 
 .seccion .img {
@@ -237,7 +235,7 @@ body {
 .seccion .h4 {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--negro-5);
   backdrop-filter: blur(0.1rem);
   position: absolute;
   bottom: 0;
@@ -281,7 +279,6 @@ body {
 }
 .about .rrss {
   width: 100%;
-  /* background: lightgreen; */
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -295,11 +292,9 @@ body {
 .about .svg {
   width: 3em;
   height: 3em;
-  /*background: red;*/
 }
 
 .footer {
-  /*background-color: lightpink;*/
   padding: 2em 0;
   text-align: center;
   color: var(--blanco);
