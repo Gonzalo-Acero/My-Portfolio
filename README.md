@@ -2,10 +2,11 @@
 
 Este es mi portfolio creado con HTML, CSS y Javascript.
 
-## Autor - 🎵
+## Autor  🎵
 **Gonzalo Acero**
 
 * [Linkedin](https://www.linkedin.com/in/gonzalo-acero/)
+* [Curriculum Vitae](https://drive.google.com/drive/folders/1rHtWw15WYYspyloCf5iwnRtFgiGNMneX?usp=drive_link)
 * [Portfolio web](insertar link del portfolio hecho)
 
 ## Instalacion
