@@ -12,7 +12,7 @@ Este es mi portfolio creado con HTML, CSS y Javascript.
 
 Este proyecto no necesita instalacion, solamente con hacer click en .html basta.
 
-## Contratacion
+## Contacto
 
-Si deseas contratarme podés escribirme a gonzaa.acero@gmail.com para consultas.
+Si deseas contactarme podés escribirme a gonzaa.acero@gmail.com.
 
