@@ -198,6 +198,9 @@ body {
   font-weight: 400;
 }
 
+.bold-text {
+  font-weight: bold;
+}
 
 .seccion .grid {
   width: 90%;
