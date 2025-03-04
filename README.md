@@ -1,19 +1,19 @@
-## 👀 Descripción 
+## 👀 Description 
 
-Este es mi portfolio creado con HTML, CSS y Javascript.
+This is my portfolio created with HTML, CSS & Javascript.
 
-## 🎵 Autor  
+## 🎵 Author  
 **Gonzalo Acero**
 
 * [Portfolio](https://gonzalo-acero.github.io/My-Portfolio/)
 * [Linkedin](https://www.linkedin.com/in/gonzalo-acero/)
 * [Curriculum Vitae](https://drive.google.com/drive/folders/1rHtWw15WYYspyloCf5iwnRtFgiGNMneX?usp=drive_link)
 
-## Instalacion
+## Instalation
 
-Este proyecto no necesita instalacion, solamente con hacer click en .html basta.
+This project doesn't need instalation, you only have to click the .htlm file.
 
-## Contacto
+## Contact Me
 
-Si deseas contactarme podés escribirme a gonzaa.acero@gmail.com.
+If you want to talk, you can reach me on gonzaa.acero@gmail.com or you can send me a DM on Linkedin.
 
